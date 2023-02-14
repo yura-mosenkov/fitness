@@ -1,2 +1,1 @@
-# fitness
-month fitness programm
+https://yura-mosenkov.github.io/rsschool-cv/

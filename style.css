@@ -1,0 +1,147 @@
+/*NULL***********************************************************/
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/*TECH***********************************************************/
+html {
+   scroll-behavior: smooth;
+}
+
+.container {
+   max-width: 860px;
+   margin: 0 auto;
+}
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   line-height: 1.7;
+   color: black;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(0, 100, 33);
+}
+
+p {
+   font-family: inherit;
+   font-size: 14px;
+   color: black;
+   line-height: inherit;
+}
+
+.block:before {
+   display: block;
+   content: " ";
+   margin-top: -80px;
+   height: 80px;
+}
+
+ul,
+li {
+   font-family: inherit;
+   font-size: 14px;
+   color: black;
+   line-height: inherit;
+}
+
+
+/*HEADER***********************************************************/
+.header {
+   position: sticky;
+   top: 0;
+   width: 100%;
+   background: rgba(255, 255, 255, 0.8);
+   border-bottom: 1px black dashed;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+   list-style: none;
+}
+
+.nav a {
+   text-decoration: none;
+   font-size: 14px;
+   color: black;
+}
+
+.nav a:hover {
+   color: grey;
+}
+
+/*MAIN***********************************************************/
+.main {
+   margin: 30px 0 0 0;
+}
+
+.block {
+   margin: 50px 0 0 0;
+}
+
+.photo {
+   width: 130px;
+   border-radius: 50%;
+   padding: 5px;
+   border: 1px dashed black;
+}
+
+.block__row {
+   display: flex;
+}
+
+.block__column {
+   min-width: 30%;
+}
+
+.block__item {
+   padding: 0 0 50px;
+}
+
+.item__name {
+   font-size: 14px;
+   font-weight: 400;
+   padding: 0 0 15px 0;
+}
+
+.experience_list {
+   list-style-type: circle;
+}
+
+.code_block {
+   display: block;
+   width: 100%;
+   background: rgb(222, 222, 222);
+}
+
+.code-example {
+   white-space: pre-line;
+   font-size: 14px;
+   padding: 10px;
+}
+
+/*FOOTER***********************************************************/
+.footer__block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 80px 0 0 0;
+   border-top: 1px dashed black;
+}
+
+.footer__img {
+   width: 100px;
+}
+
+.footer__item {
+   padding: 10px 0;
+}
